@@ -1,7 +1,7 @@
 import sys
 from PyQt5 import QtWidgets, uic
-from IngEconomica.MVC.Controlador.Botones import Controlador
-from IngEconomica.MVC.Modelo.Conexion import Database
+from IngSoftware.MVC.Controlador.Botones import Controlador
+from IngSoftware.MVC.Modelo.Conexion import Database
 
 qtCreatorFile = "Formulario.ui"
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
